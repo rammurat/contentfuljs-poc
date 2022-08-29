@@ -1,7 +1,7 @@
 # A blog example using Next.js and Contentful
 
 
-### Step 6. Run Next.js in development mode
+### Run Next.js in development mode
 
 ```bash
 npm install
