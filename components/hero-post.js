@@ -8,12 +8,13 @@ export default function HeroPost({
   date,
   slug,
   description,
-  author
+  author,
+  url
 }) {
   return (
     <section>
       <div className="mb-8 md:mb-16">
-        {/* <CoverImage title={postName} slug={slug} /> */}
+        <CoverImage title={postName} slug={slug} url={url} />
       </div>
       <h3 className="mb-4 text-4xl lg:text-6xl leading-tight">
         <Link href={`/posts/${slug}`}>

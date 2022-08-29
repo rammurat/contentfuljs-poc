@@ -26,6 +26,7 @@ export default function Index({ preview, allPosts }) {
               description={heroPost.description}
               author={heroPost.author}
               slug={heroPost.slug}
+              url={heroPost.coverImage.url}
             />
           )}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
