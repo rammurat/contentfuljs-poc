@@ -16,7 +16,7 @@ const customMarkdownOptions = (content) => ({
 
 export default function PostBody({ description }) {
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="mx-auto">
       {description}
       {/* <div className={markdownStyles['markdown']}>
         {documentToReactComponents(
